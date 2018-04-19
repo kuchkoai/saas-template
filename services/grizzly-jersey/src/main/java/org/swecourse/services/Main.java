@@ -38,8 +38,8 @@ public class Main {
     port = Optional.ofNullable(System.getenv("SERVICES_GJ_PORT"));
     BASE_URI = PROTOCOL + host.orElse("localhost") + ":" + port.orElse("80") + "/";
     LSTN_URI = PROTOCOL + lstn.orElse("0.0.0.0") + ":" + port.orElse("80");
-    //String uname = "steve";
-    //String password = "blue";
+    String uname = "steve";
+    String password = "blue";
   }
 
   /**
